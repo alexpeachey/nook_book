@@ -18,5 +18,5 @@ config :nook_book, cluster_role: System.get_env("CLUSTER_ROLE", "member") |> Str
 config :nook_book, NookBookWeb.Endpoint,
   server: true,
   http: [port: 4000],
-  url: [host: "#{name}.nookbook.online"],
+  url: [host: "alex.nookbook.online"],
   secret_key_base: "3t5dqOhPDTZUCJu4HwDHWBNr6PYtX1Rgr/VBDgoqX80NZvWGkmD3YK/JhLpmHWu7"
