@@ -15,6 +15,8 @@ config :nook_book, NookBookWeb.Endpoint,
   pubsub_server: NookBook.PubSub,
   live_view: [signing_salt: "oqzP1ea7"]
 
+config :libcluster, :topologies, []
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
