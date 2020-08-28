@@ -1,4 +1,4 @@
-defmodule NookBookWeb.ImageControler do
+defmodule NookBookWeb.ImageController do
   use NookBookWeb, :controller
   alias NookBook.ACNH.Cache
 
